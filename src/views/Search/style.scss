@@ -1,0 +1,79 @@
+$main-theme-color: #bae2e8;
+
+.search {
+  background-color: #ededfc;
+}
+.search-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .search-github-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    .search-github-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      margin-bottom: 15px;
+      .search-github-form-input {
+        padding: 10px;
+        border-radius: 5%;
+        border: 1px solid lightgray;
+      }
+      .search-github-form-btn {
+        background-color: #ededfc;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 5px;
+        cursor: pointer;
+      }
+    }
+    .search-github-p {
+      padding: 20px 20px 5px 20px;
+    }
+  }
+  .search-github-profileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .search-github-logo {
+      height: 150px;
+      margin-bottom: 10px;
+      object-fit: contain;
+      border-radius: 60%;
+    }
+    .search-github-cardItems {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .search-github-cardItem {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 25px;
+        .MuiSvgIcon-root {
+          color: rgb(41, 29, 29);
+        }
+      }
+      .search-github-cardItem1 {
+        display: flex;
+        margin-top: 10px;
+        font-weight: 800;
+      }
+      p {
+        margin-left: 10px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}

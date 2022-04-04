@@ -1,0 +1,30 @@
+$main-font: "Source Sans Pro", sans-serif;
+$main-theme-color: #ccabeb;
+$titles-font-size: 2.5rem;
+
+.gh-container {
+  border-bottom: 1px solid lightgray;
+  border-radius: 2%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  
+  .gh-repo {
+    span {
+      font-weight: 700;
+      color: $main-theme-color;
+    }
+    h2 {
+      align-items: center;
+      font-weight: 400;
+    }
+    h4 {
+      color: #000;
+    }
+    p {
+      color: #000;
+    }
+  }
+}

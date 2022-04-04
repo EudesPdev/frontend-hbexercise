@@ -1,0 +1,116 @@
+$main-font: "Source Sans Pro", sans-serif;
+$main-theme-color: #57b846;
+$titles-font-size: 2.5rem;
+
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-logos {
+  display: flex;
+}
+.login-logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.login-title {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #57b846;
+  padding-top: 50px;
+  padding-bottom: 39px;
+}
+.input-subtitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.login-container {
+  width: 350px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0 rgb(0 0 0 / 10%);
+  h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: $titles-font-size;
+  }
+  form {
+    padding: 30px 20px 20px 20px;
+    h5 {
+      margin-bottom: 5px;
+      font-size: 1.5rem;
+    }
+    input {
+      height: 30px;
+      margin-bottom: 10px;
+      color: #666;
+      background: #e6e6e6;
+      width: 92%;
+      border-radius: 25px;
+      padding: 5px 10px 5px 15px;
+      font-size: 1.2rem;
+      display: block;
+      border: none;
+      &:focus {
+        outline: none;
+        border: 1px solid black;
+      }
+      &::placeholder {
+        font-size: 1.2rem;
+        padding-left: 5px;
+      }
+    }
+    .input-container {
+      margin-bottom: 10px;
+    }
+  }
+  p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .login-signIn-btn {
+    background-color: $main-theme-color;
+    border: 1px solid $main-theme-color;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px;
+    &:hover {
+      background-color: #1b3815;
+      border-color: #1b3815;
+    }
+  }
+  .login-signup-btn {
+    background-color: white;
+    border: none;
+    color: $main-theme-color;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .login-text {
+    text-align: center;
+  }
+}

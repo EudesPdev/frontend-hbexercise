@@ -45,7 +45,7 @@ function App() {
           <Route exact path="/home/github/fav" component={FavList} />
           <Route exact path="/register" component={SignUp} />
           <Route exact path="/home" component={Home} />
-          <Route path="/" render={() => {
+          <Route exact path="/" render={() => {
             return user ? <Redirect to="/home"></Redirect> : <Login />
           }} />
         </Switch>

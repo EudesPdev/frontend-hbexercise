@@ -13,6 +13,11 @@ function Search() {
 
   const search = async (e) => {
     e.preventDefault();
+
+    if (input === "") {
+      return alert("Enter a username")
+    }
+
     let userInfo = await axios.get(`https://api.github.com/users/${input}`);
     setData(userInfo.data);
     let repo = await axios.get(`https://api.github.com/users/${input}/repos`);

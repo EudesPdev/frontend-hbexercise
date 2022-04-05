@@ -29,6 +29,7 @@ $padding: .2em;
   button.fav-button {
     border-radius: 20px;
     padding: 10px 15px;
+    cursor: pointer;
     background-color: white;
     font-weight: 400;
     &:hover {

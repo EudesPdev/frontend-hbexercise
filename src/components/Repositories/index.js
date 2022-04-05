@@ -32,7 +32,7 @@ function Repositories({ name, description, language, id, removeBtn }) {
                 <span>Repository name:</span> {name}
               </h2>
               <h4 className="description-repos">
-                <span>Description:</span> {description}
+              <span>Description:</span> {description ? description : "No description found."}
               </h4>
               <p>
                 <span>Tech:</span> {language}
@@ -47,7 +47,7 @@ function Repositories({ name, description, language, id, removeBtn }) {
               <span>Repository name:</span> {name}
             </h2>
             <h4 className="description-repos">
-              <span>Description:</span> {description}
+              <span>Description:</span> {description ? description : "No description found."}
             </h4>
             <p>
                <span>Tech:</span> {language}
